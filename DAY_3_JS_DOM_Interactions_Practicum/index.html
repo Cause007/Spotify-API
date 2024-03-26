@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1 id="test">Hello World</h1>
+    <button id="color-button">Add Color To Text</button>
+
+    <!--Copy to clip board example-->
+    <div class="source" contenteditable="true">Grab a copy of me!</div>
+    <div class="target" contenteditable="true">...and paste it here</div>
+
+    <!--Using The DOM to Grab Form Data-->
+    <form name="testData" id="testDataForm">
+        <label for="first-name">First name</label>
+        <input type="text" name="first-name" id="first-name">
+
+        <label for="last-name">Last name</label>
+        <input type="text" name="last-name" id="last-name">
+
+        <button type="submit" id="submitButton">Submit Me</button>
+    </form>
+</body>
+</html>
